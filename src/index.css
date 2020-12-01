@@ -11,3 +11,46 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#root {
+  background-color: aliceblue;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.cards-container {
+  width: 50vw;
+}
+
+.cart-container {
+  width: 50vw;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
+  gap: 1rem;
+}
+
+.navigation-spacing {
+  margin-bottom: 2rem;
+  padding-right: 10rem;
+  padding-left: 2rem;
+}
+
+h1 {
+  padding: 2rem;
+}
+
+.display-cart {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.start-training {
+  display: flex;
+  justify-content: space-between;
+}
